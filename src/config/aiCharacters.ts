@@ -1,12 +1,12 @@
 // 首先定义模型配置
 export const modelConfigs = [
   {
-    model: "qwen-plus",
+    model: "Qwen/QwQ-32B",
     apiKey: "DASHSCOPE_API_KEY", // 这里存储环境变量的 key 名称
     baseURL: "https://api.siliconflow.cn/v1"
   },
   {
-    model: "deepseek-v3-241226",
+    model: "Pro/deepseek-ai/DeepSeek-V3",
     apiKey: "ARK_API_KEY",
     baseURL: "https://api.siliconflow.cn/v1"
   },
@@ -43,7 +43,7 @@ export const modelConfigs = [
   {
     model: "moonshot-v1-8k",
     apiKey: "KIMI_API_KEY",
-    baseURL: "https://api.siliconflow.cn/v1"
+    baseURL: "https://api.moonshot.cn/v1"
   },
   {
     model: "ernie-3.5-128k",
