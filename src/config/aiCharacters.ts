@@ -13,7 +13,7 @@ export const modelConfigs = [
   {
     model: "hunyuan-standard",
     apiKey: "HUNYUAN_API_KEY",
-    baseURL: "https://api.siliconflow.cn/v1
+    baseURL: "https://api.siliconflow.cn/v1"
   },
   {
     model: "doubao-1-5-lite-32k-250115",//豆包模型|火山引擎接入点（改成自己的）
